@@ -1,13 +1,18 @@
 import React from "react";
 import "./App.css";
-import Abrak from './Header.js';
-// import ww from './Technologies.js'; 
+import Footer from "./Footer";
+import Header from './Header';
+import Technologies from "./Technologies";
+
+// import Technologies from './Technologies.js'; 
 
 const App = () => {
   return(
       <div>
-        <Abrak />
-        {/* <ww /> */}
+        <Header/>
+        <Technologies/>
+        <Footer/>
+        
       </div>
   );
 };
