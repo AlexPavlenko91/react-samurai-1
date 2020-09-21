@@ -1,3 +1,24 @@
-ul li{
-  list-style-type: georgian;
+.app-wraper{
+  display: grid;
+  margin: 0 auto;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: "h h" "n c";
+  /* grid-gap: 10px; */
+  width: 1200px;
+}
+.header{
+  grid-area: h;
+  background-color: silver;
+}
+.header img{
+  width: 20px;
+}
+.nav{
+  grid-area: n;
+  background-color: gold;
+}
+.content{
+  grid-area: c;
+  background-color: darkmagenta;
 }
