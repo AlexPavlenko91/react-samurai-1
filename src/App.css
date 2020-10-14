@@ -1,4 +1,4 @@
-.app-wraper{
+.app-wrapper{
   display: grid;
   margin: 0 auto;
   grid-template-rows: 60px 1fr;
@@ -7,18 +7,8 @@
   /* grid-gap: 10px; */
   width: 1200px;
 }
-.header{
-  grid-area: h;
-  background-color: silver;
-}
-.header img{
-  width: 20px;
-}
-.nav{
-  grid-area: n;
-  background-color: gold;
-}
-.content{
+.app-wrapper-content{
   grid-area: c;
-  background-color: darkmagenta;
+  background-color: cornflowerblue;
 }
+

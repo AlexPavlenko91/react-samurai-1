@@ -1,0 +1,11 @@
+.content{
+  grid-area: c;
+  background-color: darkmagenta;
+}
+.item{
+  color: greenyellow;
+}
+.item img{
+  width: 50px;
+  border-radius: 30px;
+}
