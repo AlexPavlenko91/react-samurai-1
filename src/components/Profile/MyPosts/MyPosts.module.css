@@ -1,4 +1,8 @@
-.content{
-  grid-area: c;
-  background-color: darkmagenta;
+.content {
+    grid-area: c;
+    background-color: darkmagenta;
+    padding: 10px;
+}
+.posts{
+    margin-top: 10px;
 }

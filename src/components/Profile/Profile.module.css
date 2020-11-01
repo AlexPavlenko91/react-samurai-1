@@ -1,7 +1,15 @@
-.content{
-  grid-area: c;
-  background-color: darkmagenta;
+.content {
+    grid-area: c;
+    background-color: darkmagenta;
 }
-.imgMain{
-  height: 300px;
+
+.imgMain {
+    height: 300px;
+    margin: 10px;
 }
+
+.item img{
+    width: 50px;
+    border-radius: 30px;
+}
+

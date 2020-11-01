@@ -12,3 +12,7 @@
 .item a.active{
   color: blueviolet;
 }
+.side{
+  display: flex;
+  background: antiquewhite;
+}
